@@ -1,0 +1,28 @@
+
+
+RELEASE 1.1.0 - PATCHNOTES
+--------------------------
+- added IP to LoginEvent
+
+
+RELEASE 1.0.1 - PATCHNOTES
+--------------------------
+- renamed "readme.txt" to "release.txt"
+- changed default mongo-connection-uri from "mongodb://172.17.0.1:47017" to "mongo-connection-uri: mongodb://172.17.0.1:27017"
+
+
+
+RELEASE 1.0.0
+-------------
+This plugin connects to a mongodb database and stores loginEvents (login and logout).
+
+What it stores:
+- event time
+- event type (login/logout)
+- player name
+- player uuid
+
+Where does it store?
+- mongo connection in config (default 'mongodb://172.17.0.1:47017')
+- database in config (default 'serversnetwork')
+- 'loginEvents' collection (not configurable)

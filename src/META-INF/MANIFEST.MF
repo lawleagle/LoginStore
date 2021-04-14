@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: BungeeCord.jar mongodb-driver-sync-4.2.3.jar lombok.jar mong
+ odb-driver-core-4.2.3.jar bson-4.2.3.jar
+

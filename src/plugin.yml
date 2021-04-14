@@ -1,0 +1,4 @@
+name: LoginStore
+main: network.manu.loginstore.LoginStore
+version: 1.0.1
+author: Manu
