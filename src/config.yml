@@ -1,2 +1,2 @@
-mongo-connection-uri: mongodb://172.17.0.1:27017
+mongo-connection-uri: mongodb://localhost:27017
 database: serversnetwork
